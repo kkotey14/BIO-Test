@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microbiology Quiz</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./questions.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <section class="intro">
+        <p class="eyebrow">Microbiology: An Introduction, 13e</p>
+        <h1>Chapters 12 to 14 Quiz</h1>
+        <p class="intro-copy">
+          One question at a time from textbook pages 260 to 332. The quiz covers
+          chapter 12, chapter 13, and chapter 14 objective questions, including
+          true/false.
+        </p>
+        <div class="intro-meta">
+          <span>180 questions</span>
+          <span>Immediate feedback</span>
+          <span>Automatic next question</span>
+        </div>
+      </section>
+
+      <section class="quiz-shell" aria-live="polite">
+        <header class="status-bar">
+          <div>
+            <p class="status-label">Progress</p>
+            <p class="status-value" id="progressText">Question 1 of 180</p>
+          </div>
+          <div>
+            <p class="status-label">Score</p>
+            <p class="status-value" id="scoreText">0 / 0</p>
+          </div>
+        </header>
+
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <section class="question-card" id="quizCard">
+          <p class="loading">Loading quiz…</p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
