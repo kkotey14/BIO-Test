@@ -5,6 +5,7 @@
     index: 0,
     score: 0,
     answered: 0,
+    skipped: 0,
     selected: null,
     timerId: null,
   };
@@ -89,15 +90,20 @@
       )
       .join("");
 
-    const percentage = questions.length
-      ? Math.round((state.score / questions.length) * 100)
+    const percentage = state.answered
+      ? Math.round((state.score / state.answered) * 100)
       : 0;
+    const skippedSummary =
+      state.skipped > 0
+        ? `<p><strong>Skipped:</strong> ${state.skipped}</p>`
+        : "";
 
     quizCard.innerHTML = `
       <section class="finish">
         <h2>Quiz complete</h2>
         <p>You finished all ${questions.length} questions from pages 260 to 332.</p>
-        <p><strong>Final score:</strong> ${state.score} / ${questions.length} (${percentage}%)</p>
+        <p><strong>Final score:</strong> ${state.score} / ${state.answered} answered (${percentage}%)</p>
+        ${skippedSummary}
         <section class="summary-grid">
           ${summaryCards}
         </section>
@@ -176,6 +182,11 @@
         <p class="question-text">${escapeHtml(question.prompt)}</p>
         ${imageMarkup}
         <div class="options">${choices}</div>
+        <div class="question-actions">
+          <button class="skip-button" id="skipButton" type="button" ${state.selected ? "disabled" : ""}>
+            Skip question
+          </button>
+        </div>
         ${feedbackMarkup}
       </section>
     `;
@@ -183,6 +194,8 @@
     quizCard.querySelectorAll("[data-choice]").forEach((button) => {
       button.addEventListener("click", () => submitAnswer(button.dataset.choice));
     });
+
+    document.getElementById("skipButton").addEventListener("click", skipQuestion);
   }
 
   function submitAnswer(choice) {
@@ -205,10 +218,26 @@
     renderQuestion();
 
     state.timerId = window.setTimeout(() => {
-      state.index += 1;
-      state.selected = null;
-      renderQuestion();
+      goToNextQuestion();
     }, 2200);
+  }
+
+  function goToNextQuestion() {
+    state.index += 1;
+    state.selected = null;
+    renderQuestion();
+  }
+
+  function skipQuestion() {
+    const question = getCurrentQuestion();
+
+    if (!question || state.selected) {
+      return;
+    }
+
+    question.wasSkipped = true;
+    state.skipped += 1;
+    goToNextQuestion();
   }
 
   function restartQuiz() {
@@ -216,11 +245,13 @@
 
     for (const question of questions) {
       delete question.wasCorrect;
+      delete question.wasSkipped;
     }
 
     state.index = 0;
     state.score = 0;
     state.answered = 0;
+    state.skipped = 0;
     state.selected = null;
     state.timerId = null;
 

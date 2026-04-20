@@ -178,6 +178,10 @@ select {
   margin-top: 24px;
 }
 
+.question-actions {
+  margin-top: 16px;
+}
+
 .option-button {
   width: 100%;
   text-align: left;
@@ -199,6 +203,28 @@ select {
 
 .option-button:disabled {
   cursor: default;
+}
+
+.skip-button {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-alt);
+  color: var(--text);
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: border-color 150ms ease, background-color 150ms ease,
+    transform 150ms ease;
+}
+
+.skip-button:hover:enabled {
+  border-color: #b7ae98;
+  background: #fcfbf8;
+  transform: translateY(-1px);
+}
+
+.skip-button:disabled {
+  cursor: default;
+  opacity: 0.65;
 }
 
 .option-button strong {
