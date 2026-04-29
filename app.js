@@ -14,6 +14,14 @@
   const progressText = document.getElementById("progressText");
   const scoreText = document.getElementById("scoreText");
   const progressFill = document.getElementById("progressFill");
+  const chapterNumbers = [...new Set(questions.map((question) => question.chapter))].sort(
+    (left, right) => left - right,
+  );
+  const chapterRangeLabel = chapterNumbers.length
+    ? chapterNumbers.length === 1
+      ? `Chapter ${chapterNumbers[0]}`
+      : `Chapters ${chapterNumbers[0]} to ${chapterNumbers[chapterNumbers.length - 1]}`
+    : "the selected chapters";
 
   function escapeHtml(value) {
     return String(value)
@@ -101,7 +109,7 @@
     quizCard.innerHTML = `
       <section class="finish">
         <h2>Quiz complete</h2>
-        <p>You finished all ${questions.length} questions from pages 260 to 332.</p>
+        <p>You finished all ${questions.length} questions from ${chapterRangeLabel}.</p>
         <p><strong>Final score:</strong> ${state.score} / ${state.answered} answered (${percentage}%)</p>
         ${skippedSummary}
         <section class="summary-grid">
