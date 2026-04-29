@@ -13,6 +13,12 @@
       chapterStart: 5,
       chapterEnd: 9,
     },
+    {
+      id: "part-3",
+      title: "Part 3",
+      chapterStart: 12,
+      chapterEnd: 15,
+    },
   ].map((part) => ({
     ...part,
     questions: questions.filter(
@@ -32,6 +38,8 @@
   const progressText = document.getElementById("progressText");
   const scoreText = document.getElementById("scoreText");
   const progressFill = document.getElementById("progressFill");
+  const partCountLabel =
+    parts.length === 1 ? "part" : parts.length === 2 ? "both parts" : `all ${parts.length} parts`;
 
   function escapeHtml(value) {
     return String(value)
@@ -208,7 +216,7 @@
     quizCard.innerHTML = `
       <section class="finish">
         <h2>Quiz complete</h2>
-        <p>You finished both parts across Chapters 1 to 9.</p>
+        <p>You finished ${partCountLabel} across Chapters 1 to 9 and 12 to 15.</p>
         <p><strong>Final score:</strong> ${overallStats.correct} / ${overallStats.answered} answered (${percentage}%)</p>
         ${skippedSummary}
         <section class="summary-grid">
