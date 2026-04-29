@@ -1,11 +1,29 @@
 (function () {
   const questions = Array.isArray(window.quizQuestions) ? window.quizQuestions : [];
+  const parts = [
+    {
+      id: "part-1",
+      title: "Part 1",
+      chapterStart: 1,
+      chapterEnd: 4,
+    },
+    {
+      id: "part-2",
+      title: "Part 2",
+      chapterStart: 5,
+      chapterEnd: 9,
+    },
+  ].map((part) => ({
+    ...part,
+    questions: questions.filter(
+      (question) =>
+        question.chapter >= part.chapterStart && question.chapter <= part.chapterEnd,
+    ),
+  }));
 
   const state = {
     index: 0,
-    score: 0,
-    answered: 0,
-    skipped: 0,
+    partIndex: 0,
     selected: null,
     timerId: null,
   };
@@ -14,14 +32,6 @@
   const progressText = document.getElementById("progressText");
   const scoreText = document.getElementById("scoreText");
   const progressFill = document.getElementById("progressFill");
-  const chapterNumbers = [...new Set(questions.map((question) => question.chapter))].sort(
-    (left, right) => left - right,
-  );
-  const chapterRangeLabel = chapterNumbers.length
-    ? chapterNumbers.length === 1
-      ? `Chapter ${chapterNumbers[0]}`
-      : `Chapters ${chapterNumbers[0]} to ${chapterNumbers[chapterNumbers.length - 1]}`
-    : "the selected chapters";
 
   function escapeHtml(value) {
     return String(value)
@@ -32,21 +42,78 @@
       .replaceAll("'", "&#39;");
   }
 
+  function getCurrentPart() {
+    return parts[state.partIndex];
+  }
+
+  function getCurrentQuestions() {
+    return getCurrentPart()?.questions ?? [];
+  }
+
   function getCurrentQuestion() {
-    return questions[state.index];
+    return getCurrentQuestions()[state.index];
+  }
+
+  function getQuestionStats(questionList) {
+    const stats = {
+      total: questionList.length,
+      answered: 0,
+      skipped: 0,
+      correct: 0,
+    };
+
+    for (const question of questionList) {
+      if (Object.hasOwn(question, "wasCorrect")) {
+        stats.answered += 1;
+        if (question.wasCorrect) {
+          stats.correct += 1;
+        }
+      }
+
+      if (question.wasSkipped) {
+        stats.skipped += 1;
+      }
+    }
+
+    return stats;
+  }
+
+  function getChapterStats(questionList) {
+    const chapters = new Map();
+
+    for (const question of questionList) {
+      if (!chapters.has(question.chapter)) {
+        chapters.set(question.chapter, {
+          total: 0,
+          correct: 0,
+        });
+      }
+
+      const chapterStats = chapters.get(question.chapter);
+      chapterStats.total += 1;
+
+      if (question.wasCorrect) {
+        chapterStats.correct += 1;
+      }
+    }
+
+    return [...chapters.entries()];
   }
 
   function updateHeader() {
-    const completed = Math.min(state.index, questions.length);
-    const progress = questions.length
-      ? Math.round((completed / questions.length) * 100)
+    const currentPart = getCurrentPart();
+    const currentQuestions = getCurrentQuestions();
+    const completed = Math.min(state.index, currentQuestions.length);
+    const progress = currentQuestions.length
+      ? Math.round((completed / currentQuestions.length) * 100)
       : 0;
+    const partStats = getQuestionStats(currentQuestions);
 
     progressText.textContent =
-      state.index < questions.length
-        ? `Question ${state.index + 1} of ${questions.length}`
-        : `Completed ${questions.length} of ${questions.length}`;
-    scoreText.textContent = `${state.score} / ${state.answered}`;
+      state.index < currentQuestions.length
+        ? `${currentPart.title} • Question ${state.index + 1} of ${currentQuestions.length}`
+        : `${currentPart.title} complete • ${currentQuestions.length} of ${currentQuestions.length}`;
+    scoreText.textContent = `${partStats.correct} / ${partStats.answered}`;
     progressFill.style.width = `${progress}%`;
   }
 
@@ -60,60 +127,95 @@
     return `The correct answer is ${question.answer}: ${question.options[question.answer]}`;
   }
 
-  function getChapterStats() {
-    const chapters = new Map();
-
-    for (const question of questions) {
-      if (!chapters.has(question.chapter)) {
-        chapters.set(question.chapter, {
-          total: 0,
-          correct: 0,
-        });
-      }
-
-      chapters.get(question.chapter).total += 1;
-    }
-
-    for (let i = 0; i < state.index; i += 1) {
-      const question = questions[i];
-      if (question.wasCorrect) {
-        chapters.get(question.chapter).correct += 1;
-      }
-    }
-
-    return [...chapters.entries()];
-  }
-
-  function renderCompletion() {
-    updateHeader();
-
-    const summaryCards = getChapterStats()
+  function buildSummaryCards(questionList) {
+    return getChapterStats(questionList)
       .map(
         ([chapter, data]) => `
           <article class="summary-card">
             <h3>Chapter ${chapter}</h3>
             <p>${data.correct} correct out of ${data.total}</p>
           </article>
-        `
+        `,
       )
       .join("");
+  }
 
-    const percentage = state.answered
-      ? Math.round((state.score / state.answered) * 100)
+  function renderPartCompletion() {
+    updateHeader();
+
+    const currentPart = getCurrentPart();
+    const currentQuestions = getCurrentQuestions();
+    const partStats = getQuestionStats(currentQuestions);
+    const percentage = partStats.answered
+      ? Math.round((partStats.correct / partStats.answered) * 100)
       : 0;
     const skippedSummary =
-      state.skipped > 0
-        ? `<p><strong>Skipped:</strong> ${state.skipped}</p>`
+      partStats.skipped > 0
+        ? `<p><strong>Skipped:</strong> ${partStats.skipped}</p>`
         : "";
+    const nextPart = parts[state.partIndex + 1];
+    const nextButton = nextPart
+      ? `<button class="primary-button" id="continueButton" type="button">Continue to ${nextPart.title}</button>`
+      : "";
+
+    quizCard.innerHTML = `
+      <section class="finish">
+        <h2>${currentPart.title} complete</h2>
+        <p>You finished ${currentPart.title.toLowerCase()} covering Chapters ${currentPart.chapterStart} to ${currentPart.chapterEnd}.</p>
+        <p><strong>Part score:</strong> ${partStats.correct} / ${partStats.answered} answered (${percentage}%)</p>
+        ${skippedSummary}
+        <section class="summary-grid">
+          ${buildSummaryCards(currentQuestions)}
+        </section>
+        <div class="button-row">
+          ${nextButton}
+          <button class="secondary-button" id="restartButton" type="button">Start again</button>
+        </div>
+      </section>
+    `;
+
+    if (nextPart) {
+      document.getElementById("continueButton").addEventListener("click", startNextPart);
+    }
+
+    document.getElementById("restartButton").addEventListener("click", restartQuiz);
+  }
+
+  function renderFinalCompletion() {
+    updateHeader();
+
+    const overallStats = getQuestionStats(questions);
+    const percentage = overallStats.answered
+      ? Math.round((overallStats.correct / overallStats.answered) * 100)
+      : 0;
+    const skippedSummary =
+      overallStats.skipped > 0
+        ? `<p><strong>Skipped:</strong> ${overallStats.skipped}</p>`
+        : "";
+    const partCards = parts
+      .map((part) => {
+        const partStats = getQuestionStats(part.questions);
+        return `
+          <article class="summary-card">
+            <h3>${part.title}</h3>
+            <p>Chapters ${part.chapterStart} to ${part.chapterEnd}</p>
+            <p>${partStats.correct} correct out of ${partStats.total}</p>
+          </article>
+        `;
+      })
+      .join("");
 
     quizCard.innerHTML = `
       <section class="finish">
         <h2>Quiz complete</h2>
-        <p>You finished all ${questions.length} questions from ${chapterRangeLabel}.</p>
-        <p><strong>Final score:</strong> ${state.score} / ${state.answered} answered (${percentage}%)</p>
+        <p>You finished both parts across Chapters 1 to 9.</p>
+        <p><strong>Final score:</strong> ${overallStats.correct} / ${overallStats.answered} answered (${percentage}%)</p>
         ${skippedSummary}
         <section class="summary-grid">
-          ${summaryCards}
+          ${partCards}
+        </section>
+        <section class="summary-grid">
+          ${buildSummaryCards(questions)}
         </section>
         <button class="primary-button" id="restartButton" type="button">Start again</button>
       </section>
@@ -122,10 +224,20 @@
     document.getElementById("restartButton").addEventListener("click", restartQuiz);
   }
 
+  function renderCompletion() {
+    if (state.partIndex < parts.length - 1) {
+      renderPartCompletion();
+      return;
+    }
+
+    renderFinalCompletion();
+  }
+
   function renderQuestion() {
     clearTimeout(state.timerId);
     updateHeader();
 
+    const currentPart = getCurrentPart();
     const question = getCurrentQuestion();
 
     if (!question) {
@@ -133,6 +245,7 @@
       return;
     }
 
+    const partStats = getQuestionStats(currentPart.questions);
     const choices = Object.entries(question.options)
       .map(([key, label]) => {
         let className = "option-button";
@@ -166,29 +279,20 @@
               ${state.selected === question.answer ? "Correct" : "Incorrect"}
             </p>
             <p class="feedback-copy">${escapeHtml(getExplanation(question))}</p>
-            <p class="feedback-score">Score: ${state.score} / ${state.answered}</p>
+            <p class="feedback-score">Part score: ${partStats.correct} / ${partStats.answered}</p>
           </section>
-        `
-      : "";
-
-    const imageMarkup = question.image
-      ? `
-          <figure class="figure-wrap">
-            <img src="${escapeHtml(question.image)}" alt="${escapeHtml(question.imageAlt)}" />
-            <figcaption class="figure-caption">${escapeHtml(question.imageAlt)}</figcaption>
-          </figure>
         `
       : "";
 
     quizCard.innerHTML = `
       <section>
         <div class="question-meta">
+          <span>${currentPart.title}</span>
           <span>Chapter ${question.chapter}</span>
           <span>${question.label}</span>
           <span>${question.type === "true-false" ? "True/False" : "Multiple Choice"}</span>
         </div>
         <p class="question-text">${escapeHtml(question.prompt)}</p>
-        ${imageMarkup}
         <div class="options">${choices}</div>
         <div class="question-actions">
           <button class="skip-button" id="skipButton" type="button" ${state.selected ? "disabled" : ""}>
@@ -214,14 +318,8 @@
     }
 
     state.selected = choice;
-    state.answered += 1;
-
-    const wasCorrect = choice === question.answer;
-    question.wasCorrect = wasCorrect;
-
-    if (wasCorrect) {
-      state.score += 1;
-    }
+    delete question.wasSkipped;
+    question.wasCorrect = choice === question.answer;
 
     renderQuestion();
 
@@ -243,9 +341,18 @@
       return;
     }
 
+    delete question.wasCorrect;
     question.wasSkipped = true;
-    state.skipped += 1;
     goToNextQuestion();
+  }
+
+  function startNextPart() {
+    clearTimeout(state.timerId);
+    state.partIndex += 1;
+    state.index = 0;
+    state.selected = null;
+    state.timerId = null;
+    renderQuestion();
   }
 
   function restartQuiz() {
@@ -257,9 +364,7 @@
     }
 
     state.index = 0;
-    state.score = 0;
-    state.answered = 0;
-    state.skipped = 0;
+    state.partIndex = 0;
     state.selected = null;
     state.timerId = null;
 

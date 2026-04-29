@@ -144,6 +144,22 @@ window.quizQuestions = [
     "answer": "A"
   },
   {
+    "id": "1-mcq-10",
+    "chapter": 1,
+    "number": 10,
+    "type": "multiple-choice",
+    "label": "Question 10",
+    "prompt": "The bacterial shape of the cells in the scanning electron micrograph shown in Figure 1.1would best be described as",
+    "options": {
+      "A": "bacillus.",
+      "B": "spiral.",
+      "C": "coccus.",
+      "D": "ovoid.",
+      "E": "columnar."
+    },
+    "answer": "A"
+  },
+  {
     "id": "1-mcq-11",
     "chapter": 1,
     "number": 11,
@@ -221,6 +237,22 @@ window.quizQuestions = [
       "E": "Robert Koch."
     },
     "answer": "C"
+  },
+  {
+    "id": "1-mcq-16",
+    "chapter": 1,
+    "number": 16,
+    "type": "multiple-choice",
+    "label": "Question 16",
+    "prompt": "Archaea differ from bacteria in that archaea",
+    "options": {
+      "A": "have cell walls composed of substances other than peptidoglycan.",
+      "B": "lack nuclei.",
+      "C": "use organic compounds for food.",
+      "D": "reproduce by binary fission.",
+      "E": "are prokaryotic."
+    },
+    "answer": "A"
   },
   {
     "id": "1-mcq-17",
@@ -462,6 +494,22 @@ window.quizQuestions = [
     "answer": "A"
   },
   {
+    "id": "1-mcq-32",
+    "chapter": 1,
+    "number": 32,
+    "type": "multiple-choice",
+    "label": "Question 32",
+    "prompt": "Penicillin was discovered by accident by",
+    "options": {
+      "A": "Alexander Fleming.",
+      "B": "Paul Ehrlich.",
+      "C": "Edward Jenner.",
+      "D": "Robert Koch.",
+      "E": "Joseph Lister."
+    },
+    "answer": "A"
+  },
+  {
     "id": "1-mcq-33",
     "chapter": 1,
     "number": 33,
@@ -476,6 +524,22 @@ window.quizQuestions = [
       "E": "Semmelweis"
     },
     "answer": "C"
+  },
+  {
+    "id": "1-mcq-34",
+    "chapter": 1,
+    "number": 34,
+    "type": "multiple-choice",
+    "label": "Question 34",
+    "prompt": "Fungal infections are studied by",
+    "options": {
+      "A": "virologists.",
+      "B": "bacteriologists.",
+      "C": "parasitologists.",
+      "D": "mycologists.",
+      "E": "herpetologists."
+    },
+    "answer": "D"
   },
   {
     "id": "1-mcq-35",
@@ -636,6 +700,22 @@ window.quizQuestions = [
       "E": "overuse of antibiotics."
     },
     "answer": "C"
+  },
+  {
+    "id": "1-mcq-45",
+    "chapter": 1,
+    "number": 45,
+    "type": "multiple-choice",
+    "label": "Question 45",
+    "prompt": "Who challenged the idea of spontaneous generation with the concept of biogenesis?",
+    "options": {
+      "A": "Louis Pasteur",
+      "B": "Rudolf Virchow",
+      "C": "Anton van Leewenhoek",
+      "D": "John Needham",
+      "E": "Francesco Redi"
+    },
+    "answer": "B"
   },
   {
     "id": "1-mcq-46",
@@ -864,6 +944,22 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "2-mcq-2",
+    "chapter": 2,
+    "number": 2,
+    "type": "multiple-choice",
+    "label": "Question 2",
+    "prompt": "Table 2.1 O C H Using the information in Table 2.1, calculate the molecular weight of ethanol, C2H5OH.",
+    "options": {
+      "A": "96",
+      "B": "46",
+      "C": "34",
+      "D": "33",
+      "E": "The answer cannot be determined."
+    },
+    "answer": "B"
+  },
+  {
     "id": "2-mcq-3",
     "chapter": 2,
     "number": 3,
@@ -894,6 +990,112 @@ window.quizQuestions = [
       "E": "Water is a polar molecule."
     },
     "answer": "B"
+  },
+  {
+    "id": "2-mcq-5",
+    "chapter": 2,
+    "number": 5,
+    "type": "multiple-choice",
+    "label": "Question 5",
+    "prompt": "Which of the following is the type of bond holding K+ and I- ions in KI?",
+    "options": {
+      "A": "ionic bond",
+      "B": "covalent bond",
+      "C": "hydrogen bond"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "2-mcq-6",
+    "chapter": 2,
+    "number": 6,
+    "type": "multiple-choice",
+    "label": "Question 6",
+    "prompt": "Which of the following is the type of bond between molecules of water in a beaker ofwater?",
+    "options": {
+      "A": "ionic bond",
+      "B": "covalent bond",
+      "C": "hydrogen bond"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "2-mcq-7",
+    "chapter": 2,
+    "number": 7,
+    "type": "multiple-choice",
+    "label": "Question 7",
+    "prompt": "What is the type of bond holding hydrogen and oxygen atoms together in a singleH2O molecule?",
+    "options": {
+      "A": "ionic bond",
+      "B": "covalent bond",
+      "C": "hydrogen bond"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "2-mcq-8",
+    "chapter": 2,
+    "number": 8,
+    "type": "multiple-choice",
+    "label": "Question 8",
+    "prompt": "Identify the following reaction: Glucose + Fructose \u2192 Sucrose + Water",
+    "options": {
+      "A": "dehydration synthesis reaction",
+      "B": "hydrolysis reaction",
+      "C": "exchange reaction",
+      "D": "reversible reaction",
+      "E": "ionic reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "2-mcq-9",
+    "chapter": 2,
+    "number": 9,
+    "type": "multiple-choice",
+    "label": "Question 9",
+    "prompt": "Identify the following reaction: Lactose + H2O \u2192 Glucose + Galactose",
+    "options": {
+      "A": "dehydration synthesis reaction",
+      "B": "hydrolysis reaction",
+      "C": "exchange reaction",
+      "D": "reversible reaction",
+      "E": "ionic reaction"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "2-mcq-10",
+    "chapter": 2,
+    "number": 10,
+    "type": "multiple-choice",
+    "label": "Question 10",
+    "prompt": "Identify the following reaction: HCl + NaHCO3 \u2192 NaCl + H2CO3",
+    "options": {
+      "A": "dehydration synthesis reaction",
+      "B": "hydrolysis reaction",
+      "C": "exchange reaction",
+      "D": "reversible reaction",
+      "E": "ionic reaction"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "2-mcq-11",
+    "chapter": 2,
+    "number": 11,
+    "type": "multiple-choice",
+    "label": "Question 11",
+    "prompt": "Identify the following reaction: NH4OH \u21cc NH3 + H2O",
+    "options": {
+      "A": "dehydration synthesis reaction",
+      "B": "hydrolysis reaction",
+      "C": "exchange reaction",
+      "D": "reversible reaction",
+      "E": "ionic reaction"
+    },
+    "answer": "D"
   },
   {
     "id": "2-mcq-12",
@@ -971,6 +1173,22 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "2-mcq-17",
+    "chapter": 2,
+    "number": 17,
+    "type": "multiple-choice",
+    "label": "Question 17",
+    "prompt": "Table 2.1 O C H Using the information in Table 2.1, calculate the number of moles in 92 grams ofethanol, C2H5OH.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "The answer cannot be determined."
+    },
+    "answer": "B"
+  },
+  {
     "id": "2-mcq-18",
     "chapter": 2,
     "number": 18,
@@ -1002,6 +1220,22 @@ window.quizQuestions = [
     "answer": "D"
   },
   {
+    "id": "2-mcq-20",
+    "chapter": 2,
+    "number": 20,
+    "type": "multiple-choice",
+    "label": "Question 20",
+    "prompt": "Table 2.2 NaOH \u21cc Na+ + OH- is a base HF \u21cc H+ + F- is an acid MgSO4 \u21cc Mg2+ + is a salt KH2PO4 \u21cc K+ + H2 is an acid H2SO4 \u21cc 2H+ + is an acid Which of the following statements about the reactions in Table 2.2 is FALSE?",
+    "options": {
+      "A": "They are exchange reactions.",
+      "B": "They are ionization reactions.",
+      "C": "They occur when the reactants are dissolved in water.",
+      "D": "They are dissociation reactions.",
+      "E": "They are reversible reactions."
+    },
+    "answer": "A"
+  },
+  {
     "id": "2-mcq-21",
     "chapter": 2,
     "number": 21,
@@ -1016,6 +1250,34 @@ window.quizQuestions = [
       "E": "hydrophobic bond"
     },
     "answer": "C"
+  },
+  {
+    "id": "2-mcq-22",
+    "chapter": 2,
+    "number": 22,
+    "type": "multiple-choice",
+    "label": "Question 22",
+    "prompt": "What is the type of strong chemical bond between carbon, hydrogen, and oxygenatoms in a single organic molecule?",
+    "options": {
+      "A": "ionic bond",
+      "B": "covalent bond",
+      "C": "hydrogen bond"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "2-mcq-23",
+    "chapter": 2,
+    "number": 23,
+    "type": "multiple-choice",
+    "label": "Question 23",
+    "prompt": "What is the type of bond between ions in salt?",
+    "options": {
+      "A": "ionic bond",
+      "B": "covalent bond",
+      "C": "hydrogen bond"
+    },
+    "answer": "A"
   },
   {
     "id": "2-mcq-24",
@@ -1110,6 +1372,54 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "2-mcq-30",
+    "chapter": 2,
+    "number": 30,
+    "type": "multiple-choice",
+    "label": "Question 30",
+    "prompt": "In Figure 2.1, which is an alcohol?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "2-mcq-31",
+    "chapter": 2,
+    "number": 31,
+    "type": "multiple-choice",
+    "label": "Question 31",
+    "prompt": "Which compound in Figure 2.1 is an ester?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "2-mcq-32",
+    "chapter": 2,
+    "number": 32,
+    "type": "multiple-choice",
+    "label": "Question 32",
+    "prompt": "Which compound in Figure 2.1 is an organic acid?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "A"
+  },
+  {
     "id": "2-mcq-33",
     "chapter": 2,
     "number": 33,
@@ -1124,6 +1434,22 @@ window.quizQuestions = [
       "E": "A-isomers"
     },
     "answer": "A"
+  },
+  {
+    "id": "2-mcq-34",
+    "chapter": 2,
+    "number": 34,
+    "type": "multiple-choice",
+    "label": "Question 34",
+    "prompt": "Figure 2.3 What kind of bond is at the arrow in Figure 2.3?",
+    "options": {
+      "A": "disulfide bridge",
+      "B": "double covalent bond",
+      "C": "hydrogen bond",
+      "D": "ionic bond",
+      "E": "peptide bond"
+    },
+    "answer": "E"
   },
   {
     "id": "2-mcq-35",
@@ -1156,6 +1482,22 @@ window.quizQuestions = [
       "E": "proteins."
     },
     "answer": "E"
+  },
+  {
+    "id": "2-mcq-37",
+    "chapter": 2,
+    "number": 37,
+    "type": "multiple-choice",
+    "label": "Question 37",
+    "prompt": "Radioisotopes are frequently used to label molecules in a cell. The fate of atoms and molecules in a cell can then be followed. Assume Saccharomyces cerevisiae is grown ina nutrient medium containing the radioisotope 32P. After a 48-hour incubation, the majority of the 32P would be found in the S. cerevisiae's",
+    "options": {
+      "A": "plasma membrane.",
+      "B": "cell wall.",
+      "C": "water.",
+      "D": "proteins.",
+      "E": "carbohydrates."
+    },
+    "answer": "A"
   },
   {
     "id": "2-mcq-38",
@@ -1793,6 +2135,21 @@ window.quizQuestions = [
     "answer": "A"
   },
   {
+    "id": "3-mcq-20",
+    "chapter": 3,
+    "number": 20,
+    "type": "multiple-choice",
+    "label": "Question 20",
+    "prompt": "Figure 3.1 In Figure 3.1, line \"c\" points to the microscope's",
+    "options": {
+      "A": "illuminator.",
+      "B": "condenser.",
+      "C": "ocular lens.",
+      "D": "objective lens."
+    },
+    "answer": "B"
+  },
+  {
     "id": "3-mcq-21",
     "chapter": 3,
     "number": 21,
@@ -2076,6 +2433,22 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "3-mcq-39",
+    "chapter": 3,
+    "number": 39,
+    "type": "multiple-choice",
+    "label": "Question 39",
+    "prompt": "You find colorless areas in cells in a Gram-stained smear. What should you do next?",
+    "options": {
+      "A": "an acid-fast stain",
+      "B": "a flagella stain",
+      "C": "a capsule stain",
+      "D": "an endospore stain",
+      "E": "a simple stain"
+    },
+    "answer": "D"
+  },
+  {
     "id": "3-mcq-40",
     "chapter": 3,
     "number": 40,
@@ -2119,6 +2492,22 @@ window.quizQuestions = [
       "C": "wavelength of light.",
       "D": "diaphragm.",
       "E": "coarse adjustment."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "3-mcq-43",
+    "chapter": 3,
+    "number": 43,
+    "type": "multiple-choice",
+    "label": "Question 43",
+    "prompt": "A student is looking at a bacterial specimen using the oil immersion lens, but has forgotten to put immersion oil on the slide. The specimen will appear",
+    "options": {
+      "A": "smaller than it would if immersion oil was used.",
+      "B": "larger than it would if immersion oil was used.",
+      "C": "somewhat fuzzy and have poor resolution.",
+      "D": "the same as it would if the immersion oil was used.",
+      "E": "to have no color."
     },
     "answer": "C"
   },
@@ -2339,6 +2728,19 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "3-tf-9",
+    "chapter": 3,
+    "number": 9,
+    "type": "true-false",
+    "label": "Question 9",
+    "prompt": "due to the longer wavelengths of the electrons used to examine specimens. The greater resolution of the electron microscope compared to the compound microscope is",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B"
+  },
+  {
     "id": "3-tf-10",
     "chapter": 3,
     "number": 10,
@@ -2512,6 +2914,70 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "4-mcq-11",
+    "chapter": 4,
+    "number": 11,
+    "type": "multiple-choice",
+    "label": "Question 11",
+    "prompt": "Which drawing in Figure 4.1 is a tetrad?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "4-mcq-12",
+    "chapter": 4,
+    "number": 12,
+    "type": "multiple-choice",
+    "label": "Question 12",
+    "prompt": "Which drawing in Figure 4.1 possesses an axial filament?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "4-mcq-13",
+    "chapter": 4,
+    "number": 13,
+    "type": "multiple-choice",
+    "label": "Question 13",
+    "prompt": "Which drawing in Figure 4.1 is streptococci?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "4-mcq-14",
+    "chapter": 4,
+    "number": 14,
+    "type": "multiple-choice",
+    "label": "Question 14",
+    "prompt": "Antibiotics that target cell wall synthesis ultimately cause bacterial cell death as aresult of",
+    "options": {
+      "A": "osmotic lysis.",
+      "B": "inhibition of molecular transport.",
+      "C": "decreased synthesis of plasma membrane.",
+      "D": "plasmolysis.",
+      "E": "cell shrinkage."
+    },
+    "answer": "A"
+  },
+  {
     "id": "4-mcq-15",
     "chapter": 4,
     "number": 15,
@@ -2560,6 +3026,22 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "4-mcq-18",
+    "chapter": 4,
+    "number": 18,
+    "type": "multiple-choice",
+    "label": "Question 18",
+    "prompt": "Functions of the glycocalyx include all of the following EXCEPT",
+    "options": {
+      "A": "biofilm formation.",
+      "B": "increased virulence.",
+      "C": "source of nutrition.",
+      "D": "protection against dehydration.",
+      "E": "binary fission."
+    },
+    "answer": "E"
+  },
+  {
     "id": "4-mcq-19",
     "chapter": 4,
     "number": 19,
@@ -2588,6 +3070,22 @@ window.quizQuestions = [
       "C": "ATP",
       "D": "concentration gradient",
       "E": "aquaporins"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "4-mcq-21",
+    "chapter": 4,
+    "number": 21,
+    "type": "multiple-choice",
+    "label": "Question 21",
+    "prompt": "Figure 4.2 Which of the following terms best describes the cell in Figure 4.2?",
+    "options": {
+      "A": "peritrichous flagella",
+      "B": "amphitrichous flagella",
+      "C": "lophotrichous flagella",
+      "D": "monotrichous flagellum",
+      "E": "axial filament"
     },
     "answer": "C"
   },
@@ -2671,6 +3169,118 @@ window.quizQuestions = [
     "answer": "D"
   },
   {
+    "id": "4-mcq-27",
+    "chapter": 4,
+    "number": 27,
+    "type": "multiple-choice",
+    "label": "Question 27",
+    "prompt": "In Figure 4.3, which diagram of a cell wall is a gram-negative cell wall?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "4-mcq-28",
+    "chapter": 4,
+    "number": 28,
+    "type": "multiple-choice",
+    "label": "Question 28",
+    "prompt": "In Figure 4.3, which diagram of a cell wall possesses lipid A/endotoxin responsiblefor symptoms associated with infection?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "4-mcq-29",
+    "chapter": 4,
+    "number": 29,
+    "type": "multiple-choice",
+    "label": "Question 29",
+    "prompt": "In Figure 4.3, which diagram of a cell wall has a structure that protects againstosmotic lysis?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "4-mcq-30",
+    "chapter": 4,
+    "number": 30,
+    "type": "multiple-choice",
+    "label": "Question 30",
+    "prompt": "In Figure 4.3, which diagram of a cell wall is decolorized by a brief exposure to alcohol?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "4-mcq-31",
+    "chapter": 4,
+    "number": 31,
+    "type": "multiple-choice",
+    "label": "Question 31",
+    "prompt": "In Figure 4.3, which diagram of a cell wall is resistant to many antibiotics (e.g., penicillin)?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "4-mcq-32",
+    "chapter": 4,
+    "number": 32,
+    "type": "multiple-choice",
+    "label": "Question 32",
+    "prompt": "In Figure 4.3, which diagram of a cell wall contains teichoic acids?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "4-mcq-33",
+    "chapter": 4,
+    "number": 33,
+    "type": "multiple-choice",
+    "label": "Question 33",
+    "prompt": "In Figure 4.3, which diagram of a cell wall contains porins?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "both a and b",
+      "D": "neither a nor b",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
     "id": "4-mcq-34",
     "chapter": 4,
     "number": 34,
@@ -2733,6 +3343,22 @@ window.quizQuestions = [
       "E": "It involves movement of molecules down a concentration gradient and may require a transport protein."
     },
     "answer": "E"
+  },
+  {
+    "id": "4-mcq-38",
+    "chapter": 4,
+    "number": 38,
+    "type": "multiple-choice",
+    "label": "Question 38",
+    "prompt": "Oxygen crosses a plasma membrane",
+    "options": {
+      "A": "by osmosis.",
+      "B": "through simple diffusion.",
+      "C": "with the help of a nonspecific transporter.",
+      "D": "through facilitated diffusion.",
+      "E": "through porins."
+    },
+    "answer": "B"
   },
   {
     "id": "4-mcq-39",
@@ -3069,6 +3695,22 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "5-mcq-2",
+    "chapter": 5,
+    "number": 2,
+    "type": "multiple-choice",
+    "label": "Question 2",
+    "prompt": "Figure 5.1 Which compound is being reduced in the reaction shown in Figure 5.1?",
+    "options": {
+      "A": "isocitric acid and \u03b1-ketoglutaric acid",
+      "B": "\u03b1-ketoglutaric acid and NAD+",
+      "C": "NAD+",
+      "D": "NADH",
+      "E": "NADH and isocitric acid"
+    },
+    "answer": "C"
+  },
+  {
     "id": "5-mcq-3",
     "chapter": 5,
     "number": 3,
@@ -3101,6 +3743,22 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "5-mcq-5",
+    "chapter": 5,
+    "number": 5,
+    "type": "multiple-choice",
+    "label": "Question 5",
+    "prompt": "Figure 5.2 What type of reaction is in Figure 5.2?",
+    "options": {
+      "A": "decarboxylation",
+      "B": "transamination",
+      "C": "dehydrogenation",
+      "D": "oxidation",
+      "E": "reduction"
+    },
+    "answer": "B"
+  },
+  {
     "id": "5-mcq-6",
     "chapter": 5,
     "number": 6,
@@ -3113,6 +3771,38 @@ window.quizQuestions = [
       "C": "It is oxidized in the electron transport chain.",
       "D": "It is catabolized in glycolysis.",
       "E": "It is converted into acetyl CoA."
+    },
+    "answer": "E"
+  },
+  {
+    "id": "5-mcq-7",
+    "chapter": 5,
+    "number": 7,
+    "type": "multiple-choice",
+    "label": "Question 7",
+    "prompt": "Figure 5.3 How would a noncompetitive inhibitor interfere with a reaction involving the enzymeshown in Figure 5.3?",
+    "options": {
+      "A": "It would bind to a.",
+      "B": "It would bind to b.",
+      "C": "It would bind to c.",
+      "D": "It would bind to d.",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "5-mcq-8",
+    "chapter": 5,
+    "number": 8,
+    "type": "multiple-choice",
+    "label": "Question 8",
+    "prompt": "Figure 5.4 How is ATP generated in the reaction shown in Figure 5.4?",
+    "options": {
+      "A": "glycolysis",
+      "B": "fermentation",
+      "C": "photophosphorylation",
+      "D": "oxidative phosphorylation",
+      "E": "substrate-level phosphorylation"
     },
     "answer": "E"
   },
@@ -3131,6 +3821,22 @@ window.quizQuestions = [
       "E": "the Entner-Doudoroff pathway."
     },
     "answer": "A"
+  },
+  {
+    "id": "5-mcq-10",
+    "chapter": 5,
+    "number": 10,
+    "type": "multiple-choice",
+    "label": "Question 10",
+    "prompt": "Figure 5.5 Which of the graphs in Figure 5.5 best illustrates the activity of an enzyme that issaturated with substrate?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "C"
   },
   {
     "id": "5-mcq-11",
@@ -3308,6 +4014,20 @@ window.quizQuestions = [
     "answer": "D"
   },
   {
+    "id": "5-mcq-22",
+    "chapter": 5,
+    "number": 22,
+    "type": "multiple-choice",
+    "label": "Question 22",
+    "prompt": "Assume you are growing bacteria on a lipid medium that started at pH 7. The actionof bacterial lipases should cause the pH of the medium to",
+    "options": {
+      "A": "increase (become more alkaline).",
+      "B": "decrease (become more acidic).",
+      "C": "stay the same."
+    },
+    "answer": "B"
+  },
+  {
     "id": "5-mcq-23",
     "chapter": 5,
     "number": 23,
@@ -3463,6 +4183,21 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "5-mcq-33",
+    "chapter": 5,
+    "number": 33,
+    "type": "multiple-choice",
+    "label": "Question 33",
+    "prompt": "Figure 5.6 The rates of O2 and glucose consumption by a bacterial culture are shown in Figure 5.6.Assume a bacterial culture was grown in a glucose medium without O2. Then O2 was added at the time marked X. The data indicate that",
+    "options": {
+      "A": "these bacteria don't use O2.",
+      "B": "these bacteria get more energy anaerobically.",
+      "C": "aerobic metabolism is more efficient than fermentation.",
+      "D": "these bacteria cannot grow anaerobically."
+    },
+    "answer": "C"
+  },
+  {
     "id": "5-mcq-34",
     "chapter": 5,
     "number": 34,
@@ -3509,6 +4244,21 @@ window.quizQuestions = [
     "answer": "D"
   },
   {
+    "id": "5-mcq-37",
+    "chapter": 5,
+    "number": 37,
+    "type": "multiple-choice",
+    "label": "Question 37",
+    "prompt": "Figure 5.7 The graph at the left in Figure 5.7 shows the reaction rate for an enzyme at its optimum temperature. Which graph shows enzyme activity at a higher temperature?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "answer": "B"
+  },
+  {
     "id": "5-mcq-38",
     "chapter": 5,
     "number": 38,
@@ -3536,6 +4286,86 @@ window.quizQuestions = [
       "C": "fermentation.",
       "D": "photophosphorylation.",
       "E": "the Calvin-Benson cycle."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "5-mcq-40",
+    "chapter": 5,
+    "number": 40,
+    "type": "multiple-choice",
+    "label": "Question 40",
+    "prompt": "In Figure 5.8, where is ATP produced?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "E"
+  },
+  {
+    "id": "5-mcq-41",
+    "chapter": 5,
+    "number": 41,
+    "type": "multiple-choice",
+    "label": "Question 41",
+    "prompt": "Refer to Figure 5.8. In aerobic respiration, where is water formed?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "5-mcq-42",
+    "chapter": 5,
+    "number": 42,
+    "type": "multiple-choice",
+    "label": "Question 42",
+    "prompt": "In Figure 5.8, the structure labeled \"1\" is",
+    "options": {
+      "A": "NAD+.",
+      "B": "ATP synthase.",
+      "C": "a plasma membrane.",
+      "D": "a cell wall.",
+      "E": "cytoplasm."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "5-mcq-43",
+    "chapter": 5,
+    "number": 43,
+    "type": "multiple-choice",
+    "label": "Question 43",
+    "prompt": "In Figure 5.8, the path labeled \"2\" is the flow of",
+    "options": {
+      "A": "electrons.",
+      "B": "protons.",
+      "C": "energy.",
+      "D": "water.",
+      "E": "glucose."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "5-mcq-44",
+    "chapter": 5,
+    "number": 44,
+    "type": "multiple-choice",
+    "label": "Question 44",
+    "prompt": "What is the most acidic place in Figure 5.8?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
     },
     "answer": "A"
   },
@@ -3740,17 +4570,100 @@ window.quizQuestions = [
     "answer": "A"
   },
   {
+    "id": "5-tf-9",
+    "chapter": 5,
+    "number": 9,
+    "type": "true-false",
+    "label": "Question 9",
+    "prompt": "Both respiration and photosynthesis use water molecules for the donation of hydrogen ions.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B"
+  },
+  {
     "id": "5-tf-10",
     "chapter": 5,
     "number": 10,
     "type": "true-false",
     "label": "Question 10",
-    "prompt": "Once an enzyme has converted substrates into products, the active site reverts backto its original form.",
+    "prompt": "5.4; 5.7 Once an enzyme has converted substrates into products, the active site reverts backto its original form.",
     "options": {
       "A": "True",
       "B": "False"
     },
     "answer": "A"
+  },
+  {
+    "id": "6-mcq-1",
+    "chapter": 6,
+    "number": 1,
+    "type": "multiple-choice",
+    "label": "Question 1",
+    "prompt": "Figure 6.1 Figure 6.1, which line best depicts a facultative anaerobe in the absence of O2?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "6-mcq-2",
+    "chapter": 6,
+    "number": 2,
+    "type": "multiple-choice",
+    "label": "Question 2",
+    "prompt": "In Figure 6.1, which line best depicts an obligate anaerobe in the presence of O2?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "6-mcq-3",
+    "chapter": 6,
+    "number": 3,
+    "type": "multiple-choice",
+    "label": "Question 3",
+    "prompt": "In Figure 6.1, which line shows the growth of an obligate aerobe incubated anaerobically?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "6-mcq-4",
+    "chapter": 6,
+    "number": 4,
+    "type": "multiple-choice",
+    "label": "Question 4",
+    "prompt": "In Figure 6.1, which line best illustrates the growth of a facultative anaerobe incubated aerobically?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "6-mcq-5",
+    "chapter": 6,
+    "number": 5,
+    "type": "multiple-choice",
+    "label": "Question 5",
+    "prompt": "In Figure 6.1, which line best depicts a psychrotroph incubated at 0\u00b0C?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    },
+    "answer": "C"
   },
   {
     "id": "6-mcq-6",
@@ -3941,6 +4854,54 @@ window.quizQuestions = [
       "E": "budding."
     },
     "answer": "D"
+  },
+  {
+    "id": "6-mcq-18",
+    "chapter": 6,
+    "number": 18,
+    "type": "multiple-choice",
+    "label": "Question 18",
+    "prompt": "Thirty-six colonies grew in nutrient agar from 1.0 ml of undiluted sample in a standard plate count. How many viable and culturable cells were in the original sample?",
+    "options": {
+      "A": "4 per milliliter",
+      "B": "9 per milliliter",
+      "C": "18 per milliliter",
+      "D": "36 per milliliter",
+      "E": "72 per milliliter"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "6-mcq-19",
+    "chapter": 6,
+    "number": 19,
+    "type": "multiple-choice",
+    "label": "Question 19",
+    "prompt": "Figure 6.2 shows a typical bacterial growth curve with the y-axis indicating the log ofthe number of bacteria and the x-axis indicating time in culture. In the figure, which section (or sections) shows a growth phase where the number of cells dying equals the number of cells dividing?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "a and c"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "6-mcq-20",
+    "chapter": 6,
+    "number": 20,
+    "type": "multiple-choice",
+    "label": "Question 20",
+    "prompt": "Figure 6.2 shows a typical bacterial growth curve with the y-axis indicating the logof the number of bacteria and the x-axis indicating time in culture. In the figure, whichsections of the graph illustrate a logarithmic change in cell numbers?",
+    "options": {
+      "A": "a and c",
+      "B": "b and d",
+      "C": "a and b",
+      "D": "c and d",
+      "E": "a and d"
+    },
+    "answer": "B"
   },
   {
     "id": "6-mcq-21",
@@ -4151,6 +5112,38 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "6-mcq-34",
+    "chapter": 6,
+    "number": 34,
+    "type": "multiple-choice",
+    "label": "Question 34",
+    "prompt": "In Figure 6.3, which tube shows the expected growth pattern for a microaerophile?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "E"
+  },
+  {
+    "id": "6-mcq-35",
+    "chapter": 6,
+    "number": 35,
+    "type": "multiple-choice",
+    "label": "Question 35",
+    "prompt": "In Figure 6.3, which tube shows the expected growth pattern for a facultative anaerobe?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "B"
+  },
+  {
     "id": "6-mcq-36",
     "chapter": 6,
     "number": 36,
@@ -4167,17 +5160,65 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "6-mcq-37",
+    "chapter": 6,
+    "number": 37,
+    "type": "multiple-choice",
+    "label": "Question 37",
+    "prompt": "Three different culture media are shown below. Medium A Medium B Medium C Na2HPO4 Yeast extract Glucose KH2PO4 Beef extract Peptone MgSO4 KH2PO4 (NH4)2SO4 CaCl2 MgSO4 KH2PO2 NaHCO3 (NH4)2SO4 Na2HPO4 For the three types of media in Table 6.1, which medium (or media) is/are chemically defined?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "A and B",
+      "E": "A and C"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "6-mcq-38",
+    "chapter": 6,
+    "number": 38,
+    "type": "multiple-choice",
+    "label": "Question 38",
+    "prompt": "In Table, 6.1, in which medium (or media) would an autotroph grow but a heterotroph could not?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "A and B",
+      "E": "A and C"
+    },
+    "answer": "A"
+  },
+  {
     "id": "6-mcq-39",
     "chapter": 6,
     "number": 39,
     "type": "multiple-choice",
     "label": "Question 39",
-    "prompt": "Assume you inoculated 100 cells, with a generation time of 20 minutes, into 100 mlof nutrient broth. You then inoculated 100 cells of the same species into 200 ml of nutrient broth. After incubation for 3 hours, you can reasonably expect to have",
+    "prompt": "6.3 Assume you inoculated 100 cells, with a generation time of 20 minutes, into 100 mlof nutrient broth. You then inoculated 100 cells of the same species into 200 ml of nutrient broth. After incubation for 3 hours, you can reasonably expect to have",
     "options": {
       "A": "more cells in the 100 ml.",
       "B": "more cells in the 200 ml.",
       "C": "the same number of cells in both.",
       "D": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "6-mcq-40",
+    "chapter": 6,
+    "number": 40,
+    "type": "multiple-choice",
+    "label": "Question 40",
+    "prompt": "The source of nutrients in nutrient agar is",
+    "options": {
+      "A": "agar.",
+      "B": "gelatin.",
+      "C": "peptone and beef extract.",
+      "D": "peptone and NaCl.",
+      "E": "agar and NaCl."
     },
     "answer": "C"
   },
@@ -4223,6 +5264,22 @@ window.quizQuestions = [
       "B": "oxidase",
       "C": "peroxidase",
       "D": "superoxide dismutase"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "6-mcq-44",
+    "chapter": 6,
+    "number": 44,
+    "type": "multiple-choice",
+    "label": "Question 44",
+    "prompt": "Table 6.2 The following data show growth of two bacteria on different media. The data in Table 6.2 indicate that S. aureus is a(n)",
+    "options": {
+      "A": "mesophile.",
+      "B": "facultative anaerobe.",
+      "C": "facultative halophile.",
+      "D": "aerobe.",
+      "E": "halophile."
     },
     "answer": "C"
   },
@@ -4501,6 +5558,22 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
+    "id": "7-mcq-4",
+    "chapter": 7,
+    "number": 4,
+    "type": "multiple-choice",
+    "label": "Question 4",
+    "prompt": "Which of the following substances is used for surgical hand scrubs?",
+    "options": {
+      "A": "phenol",
+      "B": "chlorine bleach",
+      "C": "chlorhexidine",
+      "D": "soap",
+      "E": "glutaraldehyde"
+    },
+    "answer": "C"
+  },
+  {
     "id": "7-mcq-5",
     "chapter": 7,
     "number": 5,
@@ -4547,6 +5620,22 @@ window.quizQuestions = [
       "E": "Alcohols effectively inactivate nonenveloped viruses by attacking lipids."
     },
     "answer": "E"
+  },
+  {
+    "id": "7-mcq-8",
+    "chapter": 7,
+    "number": 8,
+    "type": "multiple-choice",
+    "label": "Question 8",
+    "prompt": "Which of the following does NOT achieve sterilization?",
+    "options": {
+      "A": "dry heat",
+      "B": "pasteurization",
+      "C": "autoclave",
+      "D": "supercritical fluids",
+      "E": "ethylene oxide"
+    },
+    "answer": "B"
   },
   {
     "id": "7-mcq-9",
@@ -4629,6 +5718,22 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "7-mcq-14",
+    "chapter": 7,
+    "number": 14,
+    "type": "multiple-choice",
+    "label": "Question 14",
+    "prompt": "Disinfection of water is achieved by all of the following EXCEPT",
+    "options": {
+      "A": "ozone.",
+      "B": "UV radiation.",
+      "C": "chlorine.",
+      "D": "copper sulfate.",
+      "E": "peracetic acid."
+    },
+    "answer": "E"
+  },
+  {
     "id": "7-mcq-15",
     "chapter": 7,
     "number": 15,
@@ -4643,6 +5748,22 @@ window.quizQuestions = [
       "E": "None of the answers is correct; all of these are equally effective against nonenvelopedviruses."
     },
     "answer": "A"
+  },
+  {
+    "id": "7-mcq-16",
+    "chapter": 7,
+    "number": 16,
+    "type": "multiple-choice",
+    "label": "Question 16",
+    "prompt": "Which of the following methods is used to preserve food by slowing the metabolic processes of foodborne microbes?",
+    "options": {
+      "A": "lyophilization",
+      "B": "nonionizing radiation",
+      "C": "freezing",
+      "D": "ionizing radiation",
+      "E": "pasteurization"
+    },
+    "answer": "C"
   },
   {
     "id": "7-mcq-17",
@@ -4725,6 +5846,54 @@ window.quizQuestions = [
     "answer": "E"
   },
   {
+    "id": "7-mcq-22",
+    "chapter": 7,
+    "number": 22,
+    "type": "multiple-choice",
+    "label": "Question 22",
+    "prompt": "A suspension of 106 Bacillus cereus endospores was put in a hot-air oven at 170\u00b0C. Platecounts were used to determine the number of endospores surviving at the time intervalsshown. In Figure 7.1, what is the thermal death time?",
+    "options": {
+      "A": "150\u00b0C",
+      "B": "60 minutes",
+      "C": "120 minutes",
+      "D": "100\u00b0C",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "7-mcq-23",
+    "chapter": 7,
+    "number": 23,
+    "type": "multiple-choice",
+    "label": "Question 23",
+    "prompt": "In Figure 7.1, the thermal death point for this culture is",
+    "options": {
+      "A": "15 minutes.",
+      "B": "50\u00b0C.",
+      "C": "30 minutes.",
+      "D": "170\u00b0C.",
+      "E": "The answer cannot be determined based on the information provided"
+    },
+    "answer": "E"
+  },
+  {
+    "id": "7-mcq-24",
+    "chapter": 7,
+    "number": 24,
+    "type": "multiple-choice",
+    "label": "Question 24",
+    "prompt": "In Figure 7.1, the decimal reduction time (D value) for the culture, which is definedas the time to reduce a population by one log, is approximately",
+    "options": {
+      "A": "0 minutes.",
+      "B": "10 minutes.",
+      "C": "30 minutes.",
+      "D": "40 minutes.",
+      "E": "60 minutes."
+    },
+    "answer": "B"
+  },
+  {
     "id": "7-mcq-25",
     "chapter": 7,
     "number": 25,
@@ -4755,6 +5924,101 @@ window.quizQuestions = [
       "E": "organic acids \u2013 food preservation"
     },
     "answer": "B"
+  },
+  {
+    "id": "7-mcq-27",
+    "chapter": 7,
+    "number": 27,
+    "type": "multiple-choice",
+    "label": "Question 27",
+    "prompt": "Assume 109 E. coli cells/ml are in a flask. Which graph in Figure 7.2 best depicts the effect of placing the culture in an autoclave for 15 minutes at time x?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "7-mcq-28",
+    "chapter": 7,
+    "number": 28,
+    "type": "multiple-choice",
+    "label": "Question 28",
+    "prompt": "Which graph in Figure 7.2 best depicts the effect of placing the culture at 7\u00b0C attime x?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "7-mcq-29",
+    "chapter": 7,
+    "number": 29,
+    "type": "multiple-choice",
+    "label": "Question 29",
+    "prompt": "A disk-diffusion test using Staphylococcus gave the following results: Disinfectant Zone of inhibition (mm) A 0 B 2.5 C 10 D 5 In Table 7.1, which compound was the most effective against Staphylococcus?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "7-mcq-30",
+    "chapter": 7,
+    "number": 30,
+    "type": "multiple-choice",
+    "label": "Question 30",
+    "prompt": "In Table 7.1, which compound was the most effective against E. coli?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "E"
+  },
+  {
+    "id": "7-mcq-31",
+    "chapter": 7,
+    "number": 31,
+    "type": "multiple-choice",
+    "label": "Question 31",
+    "prompt": "In Table 7.1, which compound was bactericidal?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "E"
+  },
+  {
+    "id": "7-mcq-32",
+    "chapter": 7,
+    "number": 32,
+    "type": "multiple-choice",
+    "label": "Question 32",
+    "prompt": "Table 7.2 is shown below: The fate of E. coli O157:H7 in apple cider held at 8\u00b0C for 2 weeks, with and withoutpreservatives, Bacteria/ml Cider only 2.2 Cider with potassium sorbate 2.0 Cider with sodium benzoate 0.5 Cider with potassium sorbate + sodium benzoate 0 In Table 7.2, which preservative is most effective?",
+    "options": {
+      "A": "potassium sorbate",
+      "B": "sodium benzoate",
+      "C": "potassium sorbate + sodium benzoate",
+      "D": "no preservative"
+    },
+    "answer": "C"
   },
   {
     "id": "7-mcq-33",
@@ -4803,6 +6067,54 @@ window.quizQuestions = [
       "E": "calcium propionate."
     },
     "answer": "A"
+  },
+  {
+    "id": "7-mcq-36",
+    "chapter": 7,
+    "number": 36,
+    "type": "multiple-choice",
+    "label": "Question 36",
+    "prompt": "The following data were obtained by incubating gram-positive bacteria in nutrient medium + disinfectant for 24 hours, then transferring one loopful to nutrient medium(subculturing). (+ = growth; - = no growth) In Table 7.3, which disinfectant is the most effective at stopping bacterial growth?",
+    "options": {
+      "A": "Doom",
+      "B": "K.O.",
+      "C": "Mortum",
+      "D": "Sterl",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "7-mcq-37",
+    "chapter": 7,
+    "number": 37,
+    "type": "multiple-choice",
+    "label": "Question 37",
+    "prompt": "In Table 7.3, which disinfectant was bactericidal?",
+    "options": {
+      "A": "Doom",
+      "B": "K.O.",
+      "C": "Mortum",
+      "D": "Sterl",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "7-mcq-38",
+    "chapter": 7,
+    "number": 38,
+    "type": "multiple-choice",
+    "label": "Question 38",
+    "prompt": "In Table 7.3, which disinfectant was most effective against Salmonella?",
+    "options": {
+      "A": "Doom",
+      "B": "K.O.",
+      "C": "Mortum",
+      "D": "Sterl",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "E"
   },
   {
     "id": "7-mcq-39",
@@ -4949,6 +6261,22 @@ window.quizQuestions = [
     "answer": "E"
   },
   {
+    "id": "7-mcq-48",
+    "chapter": 7,
+    "number": 48,
+    "type": "multiple-choice",
+    "label": "Question 48",
+    "prompt": "HEPA filters are effective because they are designed to remove all airborne particulates, including microorganisms down to",
+    "options": {
+      "A": "0.01 micrometers.",
+      "B": "0.3 micrometers.",
+      "C": "1 micrometer.",
+      "D": "10 micrometers.",
+      "E": "10 nanometers."
+    },
+    "answer": "B"
+  },
+  {
     "id": "7-mcq-49",
     "chapter": 7,
     "number": 49,
@@ -4963,6 +6291,22 @@ window.quizQuestions = [
       "E": "chlorhexidine containing solution"
     },
     "answer": "C"
+  },
+  {
+    "id": "7-mcq-50",
+    "chapter": 7,
+    "number": 50,
+    "type": "multiple-choice",
+    "label": "Question 50",
+    "prompt": "Which chemical disinfectant can be considered a sterilizing liquid agent when appropriately applied?",
+    "options": {
+      "A": "quaternary ammonium compounds",
+      "B": "70% ethanol",
+      "C": "sodium benzoate",
+      "D": "gluteraldehyde",
+      "E": "ethylene oxide"
+    },
+    "answer": "D"
   },
   {
     "id": "7-tf-1",
@@ -5189,6 +6533,54 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "8-mcq-7",
+    "chapter": 8,
+    "number": 7,
+    "type": "multiple-choice",
+    "label": "Question 7",
+    "prompt": "Figure 8.1 In Figure 8.1, which colonies are streptomycin-resistant and leucine-requiring?",
+    "options": {
+      "A": "1, 2, 3, and 9",
+      "B": "3 and 9",
+      "C": "4, 6, and 8",
+      "D": "4 and 8",
+      "E": "5 and 6"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-8",
+    "chapter": 8,
+    "number": 8,
+    "type": "multiple-choice",
+    "label": "Question 8",
+    "prompt": "Culture 1: F+ , leucine+ , histidine+ Culture 2: F-, leucine-, histidine- In Table 8.1, what will be the result of conjugation between cultures 1 and 2 (reminder: F+ has a different meaning than Hfr)?",
+    "options": {
+      "A": "1 will remain the same; 2 will become F+ , leucine- , histidine-",
+      "B": "1 will become F- , leu+ , his+;2 will become F+, leu-, his-",
+      "C": "1 will become F- , leu- , his-;2 will remain the same",
+      "D": "1 will remain the same; 2 will become F+ , leu+ , his+",
+      "E": "1 will remain the same; 2 will become F+ and recombination may occur"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "8-mcq-9",
+    "chapter": 8,
+    "number": 9,
+    "type": "multiple-choice",
+    "label": "Question 9",
+    "prompt": "In Table 8.1, if culture 1 mutates to Hfr, what will be the result of conjugation between the two cultures?",
+    "options": {
+      "A": "They will both remain the same.",
+      "B": "1 will become F+ , leu+ , his+;2 will become F+, leu+ , his+",
+      "C": "1 will remain the same; recombination may occur in 2",
+      "D": "1 will become F- , leu+ , his+;2 will become Hfr, leu+, his+",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
     "id": "8-mcq-10",
     "chapter": 8,
     "number": 10,
@@ -5301,6 +6693,54 @@ window.quizQuestions = [
     "answer": "D"
   },
   {
+    "id": "8-mcq-17",
+    "chapter": 8,
+    "number": 17,
+    "type": "multiple-choice",
+    "label": "Question 17",
+    "prompt": "In Figure 8.2, if base 4 is adenine, what is base 4'?",
+    "options": {
+      "A": "adenine",
+      "B": "thymine",
+      "C": "cytosine",
+      "D": "guanine",
+      "E": "uracil"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "8-mcq-18",
+    "chapter": 8,
+    "number": 18,
+    "type": "multiple-choice",
+    "label": "Question 18",
+    "prompt": "In Figure 8.2, if base 4 is adenine, what is base 11' (remember the complimentary configuration of bases in DNA)?",
+    "options": {
+      "A": "adenine",
+      "B": "thymine",
+      "C": "cytosine",
+      "D": "guanine",
+      "E": "uracil"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "8-mcq-19",
+    "chapter": 8,
+    "number": 19,
+    "type": "multiple-choice",
+    "label": "Question 19",
+    "prompt": "In Figure 8.2, base 5 (and ONLY the base) is covalently bound/attached to",
+    "options": {
+      "A": "ribose.",
+      "B": "phosphate.",
+      "C": "deoxyribose.",
+      "D": "thymine.",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "C"
+  },
+  {
     "id": "8-mcq-20",
     "chapter": 8,
     "number": 20,
@@ -5315,6 +6755,150 @@ window.quizQuestions = [
       "E": "repaired by DNA replication."
     },
     "answer": "D"
+  },
+  {
+    "id": "8-mcq-21",
+    "chapter": 8,
+    "number": 21,
+    "type": "multiple-choice",
+    "label": "Question 21",
+    "prompt": "Codons in mRNA molecule and their corresponding amino acids UUU Phenylalanin e UAU tyrosine UUA leucine UAA nonsense GCA alanine AAU asparagine AAG lysine UGC cysteine GUU valine UCG, UCU serine Refer to Table 8.2. If the sequence of amino acids encoded by a strand of DNA is serine- alanine-lysine-leucine, what is the order of bases in the sense strand of DNA?",
+    "options": {
+      "A": "3' UGUGCAAAGUUA 5'",
+      "B": "3' AGACGTTTCAAT 5'",
+      "C": "3' TCTCGTTTGTTA 5'",
+      "D": "5' TGTGCTTTCTTA 3'",
+      "E": "5' AGAGCTTTGAAT 3'"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "8-mcq-22",
+    "chapter": 8,
+    "number": 22,
+    "type": "multiple-choice",
+    "label": "Question 22",
+    "prompt": "Refer to Table 8.2. If the sequence of amino acids encoded by a strand of DNA isserine- alanine-lysine-leucine, the coding for the antisense strand of DNA is",
+    "options": {
+      "A": "5' ACAGTTTCAAT 3'.",
+      "B": "5' TCTGCAAAGTTA 3'.",
+      "C": "3' UGUGCAAAGUUA 5'.",
+      "D": "3' UCUCGAAAGUUA 5'.",
+      "E": "3' TCACGUUUCAAU 5'."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "8-mcq-23",
+    "chapter": 8,
+    "number": 23,
+    "type": "multiple-choice",
+    "label": "Question 23",
+    "prompt": "Refer to Table 8.2 The anticodon for valine is",
+    "options": {
+      "A": "GUU.",
+      "B": "CUU.",
+      "C": "CTT.",
+      "D": "CAA.",
+      "E": "GTA."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-24",
+    "chapter": 8,
+    "number": 24,
+    "type": "multiple-choice",
+    "label": "Question 24",
+    "prompt": "Refer to Table 8.2. Identify the sequence of amino acids encoded by the following sequence of bases in a strand of DNA (pay attention to the polarity of the DNA here): 3' ATTACGCTTTGC 5'.",
+    "options": {
+      "A": "leucine-arginine-lysine-alanine",
+      "B": "asparagine-arginine-lysine-alanine",
+      "C": "asparagine-cysteine-valine-serine",
+      "D": "Translation would stop at the first codon.",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-25",
+    "chapter": 8,
+    "number": 25,
+    "type": "multiple-choice",
+    "label": "Question 25",
+    "prompt": "Refer to Table 8.2. If an indeterminate frameshift mutation occurred (that is, one at a random location) in the sequence of bases shown below, what would be the sequenceof amino acids coded for? 3' ATTACGCTTTGC",
+    "options": {
+      "A": "leucine-arginine-lysine-alanine",
+      "B": "asparagine-arginine-lysine-alanine",
+      "C": "asparagine-cysteine-valine-serine",
+      "D": "Translation would stop at the first codon.",
+      "E": "The answer cannot be determined based on the information provided."
+    },
+    "answer": "E"
+  },
+  {
+    "id": "8-mcq-26",
+    "chapter": 8,
+    "number": 26,
+    "type": "multiple-choice",
+    "label": "Question 26",
+    "prompt": "Refer to Table 8.2. When amino acid sequences from a cell cycle control protein from a patient with cancer and a healthy person are aligned, the sequence from the cancer patient indicates one amino acid has changed from phenylalanine (Phe) to leucine (Leu). A mutation in the cancer patient's DNA must have taken place. Identifythe result of this DNA change in the mRNA codon that led to this change in the proteinsequence.",
+    "options": {
+      "A": "UUU altered to UCU",
+      "B": "UUU altered to UAU",
+      "C": "UCU altered to UUA",
+      "D": "CAA altered to UUU",
+      "E": "UUU altered to UUA"
+    },
+    "answer": "E"
+  },
+  {
+    "id": "8-mcq-27",
+    "chapter": 8,
+    "number": 27,
+    "type": "multiple-choice",
+    "label": "Question 27",
+    "prompt": "In Figure 8.3, if compound C reacts with the allosteric site of enzyme A, this would exemplify",
+    "options": {
+      "A": "a mutation.",
+      "B": "repression.",
+      "C": "feedback inhibition.",
+      "D": "competitive inhibition.",
+      "E": "transcription."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "8-mcq-28",
+    "chapter": 8,
+    "number": 28,
+    "type": "multiple-choice",
+    "label": "Question 28",
+    "prompt": "In Figure 8.3, if enzyme A is a repressible enzyme, compound C would",
+    "options": {
+      "A": "always be in excess.",
+      "B": "bind to Enzyme A.",
+      "C": "bind to the corepressor for Gene a.",
+      "D": "bind to RNA polymerase.",
+      "E": "bind directly to gene a."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "8-mcq-29",
+    "chapter": 8,
+    "number": 29,
+    "type": "multiple-choice",
+    "label": "Question 29",
+    "prompt": "In Figure 8.3, if enzyme A is an inducible enzyme,",
+    "options": {
+      "A": "compound C would bind to the repressor for Gene a.",
+      "B": "compound A would bind to the repressor for Gene a.",
+      "C": "compound B would bind to enzyme A directly.",
+      "D": "compound A would react with enzyme B directly.",
+      "E": "compound C would react with gene a directly."
+    },
+    "answer": "B"
   },
   {
     "id": "8-mcq-30",
@@ -5347,6 +6931,38 @@ window.quizQuestions = [
       "E": "T. aquaticus RNA."
     },
     "answer": "A"
+  },
+  {
+    "id": "8-mcq-32",
+    "chapter": 8,
+    "number": 32,
+    "type": "multiple-choice",
+    "label": "Question 32",
+    "prompt": "Table 8.3 Based on the information in Table 8.3, prostate cancer is probably the result of whichkind of mutation?",
+    "options": {
+      "A": "analog",
+      "B": "frameshift",
+      "C": "missense",
+      "D": "nonsense",
+      "E": "None of the answers is correct."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-33",
+    "chapter": 8,
+    "number": 33,
+    "type": "multiple-choice",
+    "label": "Question 33",
+    "prompt": "Figure 8.4 In Figure 8.4, the antibiotic chloramphenicol binds the 50S large subunit of a ribosomeas shown (the light gray area is the large subunit, while the black shape is the drug). From this information you can conclude that chloramphenicol",
+    "options": {
+      "A": "prevents transcription in eukaryotes.",
+      "B": "prevents translation in eukaryotes.",
+      "C": "prevents transcription in prokaryotes.",
+      "D": "prevents translation in prokaryotes.",
+      "E": "prevents mRNA-ribosome binding."
+    },
+    "answer": "D"
   },
   {
     "id": "8-mcq-34",
@@ -5441,6 +7057,38 @@ window.quizQuestions = [
       "C": "helicase.",
       "D": "methylase.",
       "E": "primase."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-40",
+    "chapter": 8,
+    "number": 40,
+    "type": "multiple-choice",
+    "label": "Question 40",
+    "prompt": "The cancer gene ras produces mRNA containing an extra exon that includes a number of UAA codons. Cancer cells produce ras mRNA missing this exon. This mistakemost likely is due to a mistake by",
+    "options": {
+      "A": "a chemical mutagen.",
+      "B": "DNA polymerase.",
+      "C": "photolyases.",
+      "D": "snRNPs.",
+      "E": "UV radiation."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "8-mcq-41",
+    "chapter": 8,
+    "number": 41,
+    "type": "multiple-choice",
+    "label": "Question 41",
+    "prompt": "Figure 8.5 In Figure 8.5, which model of the lac operon correctly shows RNA polymerase, lactose,and repressor protein when the structural genes are being transcribed?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
     },
     "answer": "D"
   },
@@ -5624,12 +7272,25 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "8-tf-4",
+    "chapter": 8,
+    "number": 4,
+    "type": "true-false",
+    "label": "Question 4",
+    "prompt": "Mutations that are harmful to cells occur more frequently than those that benefitcells.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A"
+  },
+  {
     "id": "8-tf-5",
     "chapter": 8,
     "number": 5,
     "type": "true-false",
     "label": "Question 5",
-    "prompt": "The miRNAs in a cell inhibit protein synthesis by forming complementary bonds withrRNA.",
+    "prompt": "8.3 The miRNAs in a cell inhibit protein synthesis by forming complementary bonds withrRNA.",
     "options": {
       "A": "True",
       "B": "False"
@@ -5718,6 +7379,86 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "9-mcq-2",
+    "chapter": 9,
+    "number": 2,
+    "type": "multiple-choice",
+    "label": "Question 2",
+    "prompt": "How many pieces will EcoRI produce from the plasmid shown in Figure 9.1?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "9-mcq-3",
+    "chapter": 9,
+    "number": 3,
+    "type": "multiple-choice",
+    "label": "Question 3",
+    "prompt": "In Figure 9.1, after digestion with the appropriate restriction enzyme, what is thesmallest piece containing the entire ampicillin-resistance (amp) gene?",
+    "options": {
+      "A": "0.17 kbp",
+      "B": "0.25 kbp",
+      "C": "1.08 kbp",
+      "D": "1.50 kbp",
+      "E": "3.00 kbp"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "9-mcq-4",
+    "chapter": 9,
+    "number": 4,
+    "type": "multiple-choice",
+    "label": "Question 4",
+    "prompt": "In Figure 9.2, the enzyme in step 1 is",
+    "options": {
+      "A": "DNA polymerase.",
+      "B": "DNA ligase.",
+      "C": "RNA polymerase.",
+      "D": "reverse transcriptase.",
+      "E": "spliceosome."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "9-mcq-5",
+    "chapter": 9,
+    "number": 5,
+    "type": "multiple-choice",
+    "label": "Question 5",
+    "prompt": "In Figure 9.2, the enzyme in step 2 is",
+    "options": {
+      "A": "DNA polymerase.",
+      "B": "DNA ligase.",
+      "C": "RNA polymerase.",
+      "D": "reverse transcriptase.",
+      "E": "spliceosome."
+    },
+    "answer": "D"
+  },
+  {
+    "id": "9-mcq-6",
+    "chapter": 9,
+    "number": 6,
+    "type": "multiple-choice",
+    "label": "Question 6",
+    "prompt": "The reaction catalyzed by reverse transcriptase is",
+    "options": {
+      "A": "DNA \u2192 mRNA.",
+      "B": "mRNA \u2192 cDNA.",
+      "C": "mRNA \u2192 protein.",
+      "D": "DNA \u2192 DNA.",
+      "E": "tRNA \u2192 mRNA."
+    },
+    "answer": "B"
+  },
+  {
     "id": "9-mcq-7",
     "chapter": 9,
     "number": 7,
@@ -5782,6 +7523,22 @@ window.quizQuestions = [
     "answer": "E"
   },
   {
+    "id": "9-mcq-11",
+    "chapter": 9,
+    "number": 11,
+    "type": "multiple-choice",
+    "label": "Question 11",
+    "prompt": "Figure 9.3 The figure at the left in Figure 9.3 shows a gene identified by Southern blotting. Whatwill a Southern blot of the same gene look like after PCR?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d",
+      "E": "e"
+    },
+    "answer": "D"
+  },
+  {
     "id": "9-mcq-12",
     "chapter": 9,
     "number": 12,
@@ -5796,6 +7553,22 @@ window.quizQuestions = [
       "E": "may replicate in several species"
     },
     "answer": "B"
+  },
+  {
+    "id": "9-mcq-13",
+    "chapter": 9,
+    "number": 13,
+    "type": "multiple-choice",
+    "label": "Question 13",
+    "prompt": "Figure 9.4 In Figure 9.4, the bacteria transformed with the recombinant plasmid and plated onmedia containing ampicillin and X-gal will",
+    "options": {
+      "A": "form blue, ampicillin-resistant colonies.",
+      "B": "form blue, ampicillin-sensitive colonies.",
+      "C": "form white, ampicillin-resistant colonies.",
+      "D": "form white, ampicillin-sensitive colonies.",
+      "E": "not grow."
+    },
+    "answer": "C"
   },
   {
     "id": "9-mcq-14",
@@ -5860,6 +7633,22 @@ window.quizQuestions = [
       "E": "Enzyme Recognition Pst ICTGC\u2193G G\u2191ACGT C"
     },
     "answer": "A"
+  },
+  {
+    "id": "9-mcq-18",
+    "chapter": 9,
+    "number": 18,
+    "type": "multiple-choice",
+    "label": "Question 18",
+    "prompt": "Place the steps of constructing a genomic library in order. I. Digest phage with restriction enzyme. II. Lyse cells of interest and precipitate DNA. III. Introduce constructs via transformation into competent E. coli cells. IV. Perform ligation reaction with genome fragments and phage. V. Digest genomic DNA with restriction enzyme.",
+    "options": {
+      "A": "V, IV, I, III. II.",
+      "B": "I, II, III, IV, V.",
+      "C": "II, I, III, V, IV.",
+      "D": "II, V, I, IV, III.",
+      "E": "IV, II, III, I, V."
+    },
+    "answer": "D"
   },
   {
     "id": "9-mcq-19",
@@ -5942,12 +7731,12 @@ window.quizQuestions = [
     "answer": "C"
   },
   {
-    "id": "9-mcq-3",
+    "id": "9-mcq-24",
     "chapter": 9,
-    "number": 3,
+    "number": 24,
     "type": "multiple-choice",
-    "label": "Question 3",
-    "prompt": "Incubate at 60\u00b0C for primer hybridization.",
+    "label": "Question 24",
+    "prompt": "Which of the following places the steps in the PCR procedure in the correct order? 1) Incubate at 94\u00b0C to denature DNA strands; 2) Incubate at 72\u00b0C for DNA synthesis; 3) Incubate at 60\u00b0C for primer hybridization.",
     "options": {
       "A": "1, 2, 3",
       "B": "3, 2, 1",
@@ -5972,6 +7761,54 @@ window.quizQuestions = [
       "E": "DNA fingerprinting"
     },
     "answer": "A"
+  },
+  {
+    "id": "9-mcq-26",
+    "chapter": 9,
+    "number": 26,
+    "type": "multiple-choice",
+    "label": "Question 26",
+    "prompt": "Which of the following techniques is NOT used to introduce recombinant DNA intoplants?",
+    "options": {
+      "A": "gene guns",
+      "B": "protoplast fusion",
+      "C": "Ti plasmids and Agrobacterium",
+      "D": "microinjection",
+      "E": "electroporation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "9-mcq-27",
+    "chapter": 9,
+    "number": 27,
+    "type": "multiple-choice",
+    "label": "Question 27",
+    "prompt": "In Figure 9.5, the marker genes used for selecting recombinant DNA are",
+    "options": {
+      "A": "HindIII, BamHI, and EcoRI.",
+      "B": "ampR and lacZ.",
+      "C": "ori.",
+      "D": "ampR and ori.",
+      "E": "lacZ and ori."
+    },
+    "answer": "B"
+  },
+  {
+    "id": "9-mcq-28",
+    "chapter": 9,
+    "number": 28,
+    "type": "multiple-choice",
+    "label": "Question 28",
+    "prompt": "In Figure 9.5, the gene that allows the plasmid to be self-replicating is",
+    "options": {
+      "A": "HindIII.",
+      "B": "ampR.",
+      "C": "ori.",
+      "D": "EcoRI.",
+      "E": "lacZ."
+    },
+    "answer": "C"
   },
   {
     "id": "9-mcq-29",
@@ -6227,6 +8064,22 @@ window.quizQuestions = [
     "answer": "B"
   },
   {
+    "id": "9-mcq-45",
+    "chapter": 9,
+    "number": 45,
+    "type": "multiple-choice",
+    "label": "Question 45",
+    "prompt": "The study of genetic material taken directly from the environment is",
+    "options": {
+      "A": "bioinformatics.",
+      "B": "proteomics.",
+      "C": "reverse genetics.",
+      "D": "forensic microbiology.",
+      "E": "metagenomics."
+    },
+    "answer": "E"
+  },
+  {
     "id": "9-mcq-46",
     "chapter": 9,
     "number": 46,
@@ -6307,12 +8160,25 @@ window.quizQuestions = [
     "answer": "E"
   },
   {
+    "id": "9-tf-1",
+    "chapter": 9,
+    "number": 1,
+    "type": "true-false",
+    "label": "Question 1",
+    "prompt": "The term biotechnology refers exclusively to the use of genetically engineered organisms for the production of desired products.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B"
+  },
+  {
     "id": "9-tf-2",
     "chapter": 9,
     "number": 2,
     "type": "true-false",
     "label": "Question 2",
-    "prompt": "In recombinant DNA technology, a vector is a self-replicating segment of DNA, suchas a plasmid or viral genome.",
+    "prompt": "9.1 In recombinant DNA technology, a vector is a self-replicating segment of DNA, suchas a plasmid or viral genome.",
     "options": {
       "A": "True",
       "B": "False"
